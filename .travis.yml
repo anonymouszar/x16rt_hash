@@ -21,7 +21,7 @@ deploy:
   provider: releases
   skip_cleanup: true
   api_key:
-    secure: todo
+    secure: dk2xo+hY1OkN/3LtuqfKwE9I1lppC3Gsmr2lbzXrCxVtRoBD1Y5m8dmyH0eHpeojUC/LmaWle95ueyqanSAU8myANUgnYU2nd86eIH5dj3OQP1hGFggFaro1SfHhd2I6pw/a7HVEik2HyvUIKP5GRHngaMhuTbSMR3Zsinqf0auZDK/eK8/NrPAQYCUU52ozYuloc3qInJx2Y15cD6bdrD/4j3kIm0JWrD7nQGG+RzWE4F9KuULJyp7exrHEDvOnjgB0JKn6i1CGF3YxLl95QLlrxDCFkE1Y/kygo3HZ1CWBYgmbXyz/CkjFwLGgzXFvV8SNQqxhSfO3hlFiZfdG64raNTZ+JOo7yJ6Vn4PEokZ3er/Nw0eWOywfCGKImwZ+4Fp+mMeqvoj8eOmofeY+GWZ4zLo/3Jf/2CndaCYr6pRd/8FvYiEthBzgsKttqXPqUVIPiTX6rCknsAhYH1CqYQbE223RNupsyieizwwyFH7uwW/NELUm18Ds7LzbsWX+pJ8Sp3xnNhVwe/Cgfqz+rFOVg88BvsmYx2Oy6qZTIYPJCFDf3THlOHpznTiF5WpwoHDZ8udjQZLAkVxex4rzdznVxdyYb7juBCrHAHEztO9K8X9EzUw9YSWSht1pdcUH7RUgYTehxa+ZR8gpkk0YF6gzWuK6T5542d4Zz8TDI7g=
   file:
   - build/x16rt_hash-$X16RTHASH_VERSION-win32.zip
   - build/x16rt_hash-$X16RTHASH_VERSION-win64.zip
