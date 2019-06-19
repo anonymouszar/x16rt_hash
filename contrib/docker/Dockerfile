@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:stretch
 LABEL maintainer "Sibby Yose <sibcool@gmail.com>"
 
 USER root
