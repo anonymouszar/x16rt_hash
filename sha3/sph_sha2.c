@@ -33,7 +33,7 @@
 #include <stddef.h>
 #include <string.h>
 
-#include "sph_sha2big.h"
+#include "sph_sha2.h"
 
 #if SPH_SMALL_FOOTPRINT && !defined SPH_SMALL_FOOTPRINT_SHA2
 #define SPH_SMALL_FOOTPRINT_SHA2   1
