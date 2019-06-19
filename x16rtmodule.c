@@ -1,6 +1,6 @@
 #include <Python.h>
 
-#include "x16rt.h"
+#include "x16rthash.h"
 
 static PyObject *x16rt_getpowhash(PyObject *self, PyObject *args)
 {

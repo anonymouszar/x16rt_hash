@@ -1,0 +1,30 @@
+sudo: required
+language: python
+services:
+  - docker
+matrix:
+  include:
+  - os: linux
+before_install:
+- source contrib/travis/version_env.sh
+- echo x16rthash version is $X16RTHASH_VERSION
+install:
+- if [[ -n $TRAVIS_TAG ]]; then
+      ./contrib/travis/install.sh;
+  fi
+script:
+- if [[ -n $TRAVIS_TAG ]]; then
+      mkdir -p build;
+      ./contrib/travis/travis-build.sh;
+  fi
+deploy:
+  provider: releases
+  skip_cleanup: true
+  api_key:
+    secure: todo
+  file:
+  - build/x16rt_hash-$X16RTHASH_VERSION-win32.zip
+  - build/x16rt_hash-$X16RTHASH_VERSION-win64.zip
+  on:
+    repo: anonymouszar/x16rt_hash
+    tags: true

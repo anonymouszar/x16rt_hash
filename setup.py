@@ -1,8 +1,8 @@
 from distutils.core import setup, Extension
 
 x16rt_hash_module = Extension('x16rt_hash',
-                               sources = ['x16rt_module.c',
-                                          'x16rt.c',
+                               sources = ['x16rtmodule.c',
+                                          'x16rthash.c',
                                           'sha3/blake.c',
                                           'sha3/bmw.c',
                                           'sha3/groestl.c',
@@ -24,6 +24,6 @@ x16rt_hash_module = Extension('x16rt_hash',
                             include_dirs=['.', './sha3'])
 
 setup (name = 'x16rt_hash',
-       version = '0.1',
+       version = '1.0.0',
        description = 'Bindings for X16RT hashing PoW',
        ext_modules = [x16rt_hash_module])
