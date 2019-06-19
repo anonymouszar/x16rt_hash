@@ -1,6 +1,6 @@
 AUTOMAKE_OPTIONS = foreign
 ACLOCAL_AMFLAGS = -I m4
-lib_LTLIBRARIES = libx11hash.la
+lib_LTLIBRARIES = libx16rthash.la
 libx16rthash_la_LDFLAGS = -no-undefined
 libx16rthash_la_SOURCES = \
 	x1hash.c x11hash.h \
