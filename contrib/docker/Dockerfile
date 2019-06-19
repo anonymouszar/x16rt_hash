@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:buster
 LABEL maintainer "Sibby Yose <sibcool@gmail.com>"
 
 USER root
